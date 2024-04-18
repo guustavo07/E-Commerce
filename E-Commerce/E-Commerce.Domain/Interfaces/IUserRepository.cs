@@ -4,5 +4,5 @@ using E_Commerce.Domain.Interfaces.Base;
 namespace E_Commerce.Domain.Interfaces;
 public interface IUserRepository : IBaseRepository<User>
 {
-    Task<User> GetById(int id);
+    Task<User> GetById(Guid id, CancellationToken cancellationToken);
 }
