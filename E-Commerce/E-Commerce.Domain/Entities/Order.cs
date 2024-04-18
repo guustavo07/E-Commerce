@@ -3,17 +3,20 @@
 namespace E_Commerce.Domain.Entities;
 
 //classe não pode ser herdada
-public sealed class User : BaseEntity
+public sealed class Order : BaseEntity
 {
     public string Name { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;
     public string Cpf { get; set; } = string.Empty;
     public string? Telephone { get; set; } = string.Empty;
-    public Guid RoleId { get; set; }
-    public Role Role {get; set;}
+    public Guid UserId { get; set; }
+    public User User { get; set; }
+    public Guid AddressId { get; set; }
+    public Address Address { get; set; }
+    public Guid ProductId { get; set; }
+    public Product Product { get; set; }
 
 
-    public ICollection<Address> AddressList { get; }
-    public ICollection<Order> OrderList { get; }
+    public ICollection<Payment> PaymentsList { get; }
 }
