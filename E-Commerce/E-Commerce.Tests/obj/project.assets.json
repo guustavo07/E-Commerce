@@ -5518,19 +5518,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Meta3\\.nuget\\packages\\": {}
+    "C:\\Users\\leoal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\guustavo07\\E-Commerce\\E-Commerce\\E-Commerce.Tests\\E-Commerce.Tests.csproj",
+      "projectUniqueName": "D:\\Projetos\\ECOMMERCE\\E-Commerce\\E-Commerce.Tests\\E-Commerce.Tests.csproj",
       "projectName": "E-Commerce.Tests",
-      "projectPath": "C:\\Projects\\guustavo07\\E-Commerce\\E-Commerce\\E-Commerce.Tests\\E-Commerce.Tests.csproj",
-      "packagesPath": "C:\\Users\\Meta3\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\guustavo07\\E-Commerce\\E-Commerce\\E-Commerce.Tests\\obj\\",
+      "projectPath": "D:\\Projetos\\ECOMMERCE\\E-Commerce\\E-Commerce.Tests\\E-Commerce.Tests.csproj",
+      "packagesPath": "C:\\Users\\leoal\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\ECOMMERCE\\E-Commerce\\E-Commerce.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Meta3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leoal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5538,6 +5538,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5550,6 +5551,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5593,7 +5599,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
