@@ -14,6 +14,7 @@ public static class ServiceExtensions
         var connectionString = configuration.GetConnectionString("DefaultConnection");
 
         services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connectionString));
+        
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IUserRepository, UserRepository>();
     }

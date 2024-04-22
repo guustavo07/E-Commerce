@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace E_Commerce.Application.UseCases.CreateUser;
+﻿namespace E_Commerce.Application.UseCases.CreateUser;
 public sealed record CreateUserResponse
 {
     public Guid Id { get; set; }
